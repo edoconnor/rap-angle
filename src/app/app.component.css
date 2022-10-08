@@ -1,0 +1,39 @@
+/* AppComponent's private CSS styles */
+html,
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  background-color: #42545c;
+
+  color: white;
+  border-radius: 15px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #e74c3c;
+}
+nav a:active {
+  background-color: black;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  background-color: #bdc3c7;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
